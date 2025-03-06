@@ -49,11 +49,15 @@ export default {
       this.noText = "Yes";
 
       setTimeout(() => {
-        alert("Là rõ rồi! ❤️");
+        alert(
+          "Là rõ rồi! ❤️, Nhân ngày 8/3, chúc chị/em luôn xinh đẹp, rạng rỡ và thành công trong công việc lẫn cuộc sống. Cảm ơn chị/em đã là một đồng nghiệp tuyệt vời!"
+        );
       }, 500);
     },
     handleYes() {
-      alert("Là rõ rồi! ❤️");
+      alert(
+        "Là rõ rồi! ❤️,Nhân ngày 8/3, chúc chị/em luôn xinh đẹp, rạng rỡ và thành công trong công việc lẫn cuộc sống. Cảm ơn chị/em đã là một đồng nghiệp tuyệt vời!"
+      );
     },
     loadIcons() {
       const context = require.context("@/assets/icons", false, /\.png$/);
